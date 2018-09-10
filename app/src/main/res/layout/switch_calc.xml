@@ -3,6 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <TextView
+        android:id="@+id/Cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text=" 스위치 계산기"
+        android:textColor="#ffff0000"
+        android:textSize="30dp" />
 
     <EditText
         android:id="@+id/num"
